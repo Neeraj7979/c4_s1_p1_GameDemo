@@ -13,9 +13,9 @@ public class GameDemo {
     public static void main(String[] args) {
         GameDemo g1=new GameDemo();
         int f1=10;
-        int f2=0;
+        int f2=5;
         int reminder= Integer.parseInt(g1.divideByNumber(f1,f2));
-        System.out.println(reminder);
+        System.out.println("reminder = "+reminder);
     }
 
 }
