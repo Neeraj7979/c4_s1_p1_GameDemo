@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2701ee72-c31d-485c-b57e-6d4108be68e5" name="Changes" comment="Created class Game Demo">
-      <change beforePath="$PROJECT_DIR$/src/GameDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameDemo.java" afterDir="false" />
+    <list default="true" id="2701ee72-c31d-485c-b57e-6d4108be68e5" name="Changes" comment="Checked for exception at second number at zero and print the result.">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter_api.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/GameDemoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c4_s1_p1_GameDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/c4_s1_p1_GameDemo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Output.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -31,13 +37,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.GameDemoTest.divideByNumberPass">
     <configuration name="GameDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GameDemo" />
       <module name="c4_s1_p1_GameDemo" />
@@ -45,8 +71,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GameDemoTest.divideByNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="c4_s1_p1_GameDemo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GameDemoTest" />
+      <option name="METHOD_NAME" value="divideByNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameDemoTest.divideByNumberPass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="c4_s1_p1_GameDemo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GameDemoTest" />
+      <option name="METHOD_NAME" value="divideByNumberPass" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GameDemoTest.divideByNumberPass" />
+        <item itemvalue="JUnit.GameDemoTest.divideByNumber" />
         <item itemvalue="Application.GameDemo" />
       </list>
     </recent_temporary>
@@ -67,7 +115,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661335609308</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Created method divide by zero  in class gameDemo.">
+      <created>1661335730337</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661335730337</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Checked for exception at second number at zero and print the result.">
+      <created>1661335833485</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661335833485</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -83,6 +145,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created class Game Demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created class Game Demo" />
+    <MESSAGE value="Created method divide by zero  in class gameDemo." />
+    <MESSAGE value="Checked for exception at second number at zero and print the result." />
+    <option name="LAST_COMMIT_MESSAGE" value="Checked for exception at second number at zero and print the result." />
   </component>
 </project>
